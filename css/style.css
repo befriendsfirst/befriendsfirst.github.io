@@ -1,6 +1,5 @@
 .landing {
   background-color:#f2f2f2;
-  width:400px;
   padding:20px;
   position:relative;
   margin:10% auto auto auto;
@@ -9,7 +8,7 @@
 
 #opening {
   font-family: 'Proza Libre', sans-serif;
-  padding:0% 0% 5% 0%;
+  padding:0% 0% 0% 0%;
   display:none;
 }
 
@@ -24,4 +23,16 @@ body {
   background-color:#262626;
 }
 
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}  
 
