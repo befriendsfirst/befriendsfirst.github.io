@@ -10,18 +10,18 @@
 #opening {
   font-family: 'Proza Libre', sans-serif;
   padding:0% 0% 5% 0%;
-  opacity:1;
+  display:none;
 }
 
 #message {
   font-family: 'Cormorant Garamond', serif;
+  display:none;
 }
 body {
-  background-image:url("https://lh3.googleusercontent.com/Kv9Siq2XoLW79PM6PugEW3JI3v9-B-dbpd5SxRQp2ZjytYtZptCGasxpJxj0oWAQtEmQObVqZx_aENqDQOKmjflGzGngAr4tik4l=w1440-h834-rw");
+  background-image:url("background.JPG");
   background-position:top;
   background-repeat:no-repeat; 
   background-color:#262626;
-  
 }
 
 
